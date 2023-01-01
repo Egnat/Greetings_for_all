@@ -115,6 +115,7 @@ console.log(colorNames);*/
 const textTwoSlide = document.querySelector('.textTwoSlide');
 function blink() {
   const h2 = document./*getElementById*/querySelector('.textTwoSlide');//#hi
+  h2.style.width = "600px";
   if (h2.style.visibility == "hidden") {
     h2.style.visibility = "visible";
     //textTwoSlide.style.color = "yellow"; //изменить цвет текста здесь можно
