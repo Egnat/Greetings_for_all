@@ -90,7 +90,7 @@ previous.style.width = "80px";
 previous.style.height = "616px";
 previous.style.top = "50px";
 
-//Смена цвета у слов // массив цветов
+/*//Смена цвета у слов // массив цветов
 //Функции и переменные не должно называться одинаково для использования двух или ольше элементов
 let colorNamess = ["blue", "cyan", "red", "gold", "green", "yellow", "orange"];
 
@@ -110,7 +110,7 @@ setInterval(() => {
     paragraphss[i].style.color = colorNamess[random(0)];
   }
 }, 3000);
-console.log(colorNames);
+console.log(colorNames);*/
 
 const textTwoSlide = document.querySelector('.textTwoSlide');
 function blink() {
